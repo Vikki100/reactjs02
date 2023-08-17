@@ -1,29 +1,22 @@
-import React,{useState} from 'react'
+import React from 'react'
+import './Home.css'
+import Task from './Task'
 
 const Home = () => {
-    const [invalue ,setinvalue]=useState( 'myname');
-    const [num ,setnum]=useState( 0);
-
-    const increment =()=>{
-        setnum(num +1)
-    }
+    
 
   return (
-    <div className="inp">
-        <input style={{margin:'20px'}} type="text" placeholder='enter somthing'
-         onChange={(e)=>{
-            setinvalue(e.target.value)
-         }}
-         
-        />
-        {console.log(invalue)}
-        
+    
+   <div className="main">
+    <form id='myform'>
+    <input type="text" placeholder='wirter somthing' />
+    <textarea name="textarea" id="" placeholder='discription'></textarea>
+    <button>add task</button>
 
-        <h3>{invalue}</h3>
+    </form>
 
-        <h2>{num}</h2>
-        <button onClick={increment}>click</button>
-    </div>
+    <Task/> 
+   </div>
   )
 }
 

@@ -3,7 +3,9 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='nav'>Navbar</div>
+    <div className='nav'>
+      <h2>Daily Golas Project</h2>
+    </div>
   )
 }
 

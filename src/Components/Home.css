@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #8eca92;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main > #myform {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#myform input,textarea, button{
+    padding: 10px 0px;
+    outline: none;
+}
+
+button{
+    background: #000;
+    color: wheat;
+}
+
+.task-div{
+    margin-top: 30px;
+    background: #e3e1e189;
+    padding: 10px 0px;
+}
+
+.task-div p{
+    color: rgba(27, 26, 26, 0.799);
+}

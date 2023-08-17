@@ -1,8 +1,13 @@
 .nav{
-    background: dodgerblue;
+    background: rgb(47, 150, 253);
     color: #fff;
     height: 50px;
     line-height: 50px;
+    
     padding: 0px 10px;
     font-weight: 900;
+}
+
+.nav h2{
+text-align: center;
 }
